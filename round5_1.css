@@ -1,4 +1,17 @@
-html{font-size: 62.5%;font-family:"微软雅黑";background: white; }
+html{font-size: 40%;font-family:"微软雅黑";background: white; }
+
+@media   (max-width: 640px) {
+    html{font-size: 25%}
+    div.backgroup{padding: 0;height: 21rem}
+    div.backgroup img{width:80%;height:80%;}
+    div.backgroup-p2{margin : 00 0 0}
+    div.backgroup-left{line-height: 21rem}
+    div.backgroup h1{padding-left: 0;padding-top: 7.6rem}
+    div.border-bottom{padding: 0;margin-left: 1rem;}
+    div.m-5{width:8.5rem;line-height: 2rem}
+    h5.h5-1{line-height: 2rem;padding-right: 3rem}
+}
+
 body{margin: 0;width: 100%;overflow:-Scroll;overflow-x:hidden;}
 .head{
 
@@ -28,6 +41,7 @@ p{
     margin:0 3.8rem 0 0 ;
     float: none;
     line-height: 6.8rem;
+    font-weight:normal;
 
 }
 .backgroup {
@@ -60,6 +74,7 @@ p{
      text-align: left;
      color: white;
      float: none;
+     font-weight:normal ;
  }
 h2{
 
@@ -71,6 +86,7 @@ h2{
     text-align: left;
     color: white;
     float: none;
+    font-weight:normal ;
 }
 
 
@@ -85,6 +101,7 @@ h3{
     text-align: center;
     height: 2rem;
     line-height: 2rem;
+    font-weight:normal ;
 }
 .main{
     width: 100%;
@@ -100,6 +117,7 @@ h4{
     margin: 0  0 0 4rem;
     padding: 0;
     line-height: 8.4rem;
+    font-weight:normal ;
 }
 .border-bottom{
     border-bottom-style:solid;
@@ -129,4 +147,29 @@ h5{
     line-height: 8rem;
     text-align: left;
     float:left;
+    font-weight:normal ;
+}
+.backgroup-p2{
+    float: none;
+    width:100%;
+    margin: 1rem 0 0 19rem;
+
+}
+.backgroup-left{
+    float: left;
+    line-height: 27.3rem;
+    margin: 0 0 0 2rem;
+    padding: 0;}
+.m-5{
+    display:table-cell;
+    vertical-align:middle;
+    width: 11.5rem;
+}
+.h5-1{
+    width:auto;
+    word-wrap: break-word;
+    word-break: normal;
+    height: auto;
+    line-height:4rem;
+    padding:0 6rem 0 2.8rem
 }
