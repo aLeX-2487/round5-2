@@ -2,9 +2,9 @@ html{font-size: 40%;font-family:"微软雅黑";background: white; }
 
 @media   (max-width: 640px) {
     html{font-size: 25%}
-    div.backgroup{padding: 0;height: 21rem}
+    div.backgroup{padding: 0;height: 21rem;margin-top: 6rem}
     div.backgroup img{width:80%;height:80%;}
-    div.backgroup-p2{margin : 00 0 0}
+    div.backgroup-p2{margin : 0 0 0 0}
     div.backgroup-left{line-height: 21rem}
     div.backgroup h1{padding-left: 0;padding-top: 7.6rem}
     div.border-bottom{padding: 0;margin-left: 1rem;}
@@ -53,8 +53,8 @@ p{
     background: url("./backgroup.png") no-repeat;
     background-size: 100% 100%;
     float: left;
-    overflow-y: auto;
     overflow-x: hidden;
+    overflow-y: hidden
 
 }
 
@@ -152,7 +152,7 @@ h5{
 .backgroup-p2{
     float: none;
     width:100%;
-    margin: 1rem 0 0 19rem;
+    margin: 0 0 0 19rem;
 
 }
 .backgroup-left{
